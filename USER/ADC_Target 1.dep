@@ -1,0 +1,473 @@
+Dependencies for Project 'ADC', Target 'Target 1': (DO NOT MODIFY !)
+F (.\main.c)(0x55867D36)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RTC -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\WORD -I..\HARDWARE\TIMER -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\EXTI -I "D:\Program Files\ARM\RV31\INC" -I "D:\Program Files\ARM\CMSIS\Include" -I "D:\Program Files\ARM\Inc\ST\STM32F10x" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\OBJ\main.o" --omf_browse "..\OBJ\main.crf" --depend "..\OBJ\main.d")
+I (..\HARDWARE\LED\led.h)(0x53D1EC7C)
+I (..\SYSTEM\sys\sys.h)(0x53D1EC7C)
+I (..\USER\stm32f10x.h)(0x53D1EC7C)
+I (..\CORE\core_cm3.h)(0x53D1EC7C)
+I (D:\Program Files\ARM\ARMCC\bin\..\include\stdint.h)(0x553B5E8F)
+I (..\USER\system_stm32f10x.h)(0x53D1EC7C)
+I (..\USER\stm32f10x_conf.h)(0x553E26C8)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x55509103)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x553B5DF7)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x53D1EC7C)
+I (..\SYSTEM\delay\delay.h)(0x53D1EC7C)
+I (..\HARDWARE\KEY\key.h)(0x53D1EC7C)
+I (..\HARDWARE\LCD\lcd.h)(0x53D1EC7C)
+I (D:\Program Files\ARM\ARMCC\bin\..\include\stdlib.h)(0x50F96150)
+I (..\SYSTEM\usart\usart.h)(0x53D1EC7C)
+I (D:\Program Files\ARM\ARMCC\bin\..\include\stdio.h)(0x50F96150)
+I (..\HARDWARE\ADC\adc.h)(0x53D1EC7C)
+I (..\HARDWARE\WORD\word.h)(0x5538B50F)
+I (..\HARDWARE\TIMER\timer.h)(0x55472FAE)
+I (..\HARDWARE\FLASH\flash.h)(0x5552E968)
+I (..\HARDWARE\EXTI\exti.h)(0x553E266C)
+F (.\stm32f10x_it.c)(0x55867D35)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RTC -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\WORD -I..\HARDWARE\TIMER -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\EXTI -I "D:\Program Files\ARM\RV31\INC" -I "D:\Program Files\ARM\CMSIS\Include" -I "D:\Program Files\ARM\Inc\ST\STM32F10x" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\OBJ\stm32f10x_it.o" --omf_browse "..\OBJ\stm32f10x_it.crf" --depend "..\OBJ\stm32f10x_it.d")
+I (stm32f10x_it.h)(0x53D1EC7C)
+I (stm32f10x.h)(0x53D1EC7C)
+I (..\CORE\core_cm3.h)(0x53D1EC7C)
+I (D:\Program Files\ARM\ARMCC\bin\..\include\stdint.h)(0x553B5E8F)
+I (system_stm32f10x.h)(0x53D1EC7C)
+I (stm32f10x_conf.h)(0x553E26C8)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x53D1EC7C)
+I (..\USER\stm32f10x.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x55509103)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x553B5DF7)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x53D1EC7C)
+F (.\system_stm32f10x.c)(0x55867D36)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RTC -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\WORD -I..\HARDWARE\TIMER -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\EXTI -I "D:\Program Files\ARM\RV31\INC" -I "D:\Program Files\ARM\CMSIS\Include" -I "D:\Program Files\ARM\Inc\ST\STM32F10x" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\OBJ\system_stm32f10x.o" --omf_browse "..\OBJ\system_stm32f10x.crf" --depend "..\OBJ\system_stm32f10x.d")
+I (stm32f10x.h)(0x53D1EC7C)
+I (..\CORE\core_cm3.h)(0x53D1EC7C)
+I (D:\Program Files\ARM\ARMCC\bin\..\include\stdint.h)(0x553B5E8F)
+I (system_stm32f10x.h)(0x53D1EC7C)
+I (stm32f10x_conf.h)(0x553E26C8)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x53D1EC7C)
+I (..\USER\stm32f10x.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x55509103)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x553B5DF7)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x53D1EC7C)
+F (..\HARDWARE\LED\led.c)(0x55867D64)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RTC -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\WORD -I..\HARDWARE\TIMER -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\EXTI -I "D:\Program Files\ARM\RV31\INC" -I "D:\Program Files\ARM\CMSIS\Include" -I "D:\Program Files\ARM\Inc\ST\STM32F10x" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\OBJ\led.o" --omf_browse "..\OBJ\led.crf" --depend "..\OBJ\led.d")
+I (..\HARDWARE\LED\led.h)(0x53D1EC7C)
+I (..\SYSTEM\sys\sys.h)(0x53D1EC7C)
+I (..\USER\stm32f10x.h)(0x53D1EC7C)
+I (..\CORE\core_cm3.h)(0x53D1EC7C)
+I (D:\Program Files\ARM\ARMCC\bin\..\include\stdint.h)(0x553B5E8F)
+I (..\USER\system_stm32f10x.h)(0x53D1EC7C)
+I (..\USER\stm32f10x_conf.h)(0x553E26C8)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x55509103)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x553B5DF7)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x53D1EC7C)
+F (..\HARDWARE\KEY\key.c)(0x55867D66)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RTC -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\WORD -I..\HARDWARE\TIMER -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\EXTI -I "D:\Program Files\ARM\RV31\INC" -I "D:\Program Files\ARM\CMSIS\Include" -I "D:\Program Files\ARM\Inc\ST\STM32F10x" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\OBJ\key.o" --omf_browse "..\OBJ\key.crf" --depend "..\OBJ\key.d")
+I (..\HARDWARE\KEY\key.h)(0x53D1EC7C)
+I (..\SYSTEM\sys\sys.h)(0x53D1EC7C)
+I (..\USER\stm32f10x.h)(0x53D1EC7C)
+I (..\CORE\core_cm3.h)(0x53D1EC7C)
+I (D:\Program Files\ARM\ARMCC\bin\..\include\stdint.h)(0x553B5E8F)
+I (..\USER\system_stm32f10x.h)(0x53D1EC7C)
+I (..\USER\stm32f10x_conf.h)(0x553E26C8)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x55509103)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x553B5DF7)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x53D1EC7C)
+I (..\SYSTEM\delay\delay.h)(0x53D1EC7C)
+F (..\HARDWARE\LCD\lcd.c)(0x55867D64)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RTC -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\WORD -I..\HARDWARE\TIMER -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\EXTI -I "D:\Program Files\ARM\RV31\INC" -I "D:\Program Files\ARM\CMSIS\Include" -I "D:\Program Files\ARM\Inc\ST\STM32F10x" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\OBJ\lcd.o" --omf_browse "..\OBJ\lcd.crf" --depend "..\OBJ\lcd.d")
+I (..\HARDWARE\LCD\lcd.h)(0x53D1EC7C)
+I (..\SYSTEM\sys\sys.h)(0x53D1EC7C)
+I (..\USER\stm32f10x.h)(0x53D1EC7C)
+I (..\CORE\core_cm3.h)(0x53D1EC7C)
+I (D:\Program Files\ARM\ARMCC\bin\..\include\stdint.h)(0x553B5E8F)
+I (..\USER\system_stm32f10x.h)(0x53D1EC7C)
+I (..\USER\stm32f10x_conf.h)(0x553E26C8)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x55509103)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x553B5DF7)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x53D1EC7C)
+I (D:\Program Files\ARM\ARMCC\bin\..\include\stdlib.h)(0x50F96150)
+I (..\HARDWARE\LCD\font.h)(0x53D1EC7C)
+I (..\SYSTEM\usart\usart.h)(0x53D1EC7C)
+I (D:\Program Files\ARM\ARMCC\bin\..\include\stdio.h)(0x50F96150)
+I (..\SYSTEM\delay\delay.h)(0x53D1EC7C)
+F (..\HARDWARE\ADC\adc.c)(0x55867D67)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RTC -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\WORD -I..\HARDWARE\TIMER -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\EXTI -I "D:\Program Files\ARM\RV31\INC" -I "D:\Program Files\ARM\CMSIS\Include" -I "D:\Program Files\ARM\Inc\ST\STM32F10x" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\OBJ\adc.o" --omf_browse "..\OBJ\adc.crf" --depend "..\OBJ\adc.d")
+I (..\HARDWARE\ADC\adc.h)(0x53D1EC7C)
+I (..\SYSTEM\sys\sys.h)(0x53D1EC7C)
+I (..\USER\stm32f10x.h)(0x53D1EC7C)
+I (..\CORE\core_cm3.h)(0x53D1EC7C)
+I (D:\Program Files\ARM\ARMCC\bin\..\include\stdint.h)(0x553B5E8F)
+I (..\USER\system_stm32f10x.h)(0x53D1EC7C)
+I (..\USER\stm32f10x_conf.h)(0x553E26C8)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x55509103)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x553B5DF7)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x53D1EC7C)
+I (..\SYSTEM\delay\delay.h)(0x53D1EC7C)
+F (..\HARDWARE\WORD\word.c)(0x55867D63)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RTC -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\WORD -I..\HARDWARE\TIMER -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\EXTI -I "D:\Program Files\ARM\RV31\INC" -I "D:\Program Files\ARM\CMSIS\Include" -I "D:\Program Files\ARM\Inc\ST\STM32F10x" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\OBJ\word.o" --omf_browse "..\OBJ\word.crf" --depend "..\OBJ\word.d")
+I (..\HARDWARE\WORD\word.h)(0x5538B50F)
+I (..\SYSTEM\sys\sys.h)(0x53D1EC7C)
+I (..\USER\stm32f10x.h)(0x53D1EC7C)
+I (..\CORE\core_cm3.h)(0x53D1EC7C)
+I (D:\Program Files\ARM\ARMCC\bin\..\include\stdint.h)(0x553B5E8F)
+I (..\USER\system_stm32f10x.h)(0x53D1EC7C)
+I (..\USER\stm32f10x_conf.h)(0x553E26C8)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x55509103)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x553B5DF7)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x53D1EC7C)
+I (..\SYSTEM\delay\delay.h)(0x53D1EC7C)
+I (..\SYSTEM\usart\usart.h)(0x53D1EC7C)
+I (D:\Program Files\ARM\ARMCC\bin\..\include\stdio.h)(0x50F96150)
+I (..\HARDWARE\LCD\lcd.h)(0x53D1EC7C)
+I (D:\Program Files\ARM\ARMCC\bin\..\include\stdlib.h)(0x50F96150)
+I (..\HARDWARE\LED\led.h)(0x53D1EC7C)
+F (..\HARDWARE\TIMER\timer.c)(0x55867D63)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RTC -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\WORD -I..\HARDWARE\TIMER -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\EXTI -I "D:\Program Files\ARM\RV31\INC" -I "D:\Program Files\ARM\CMSIS\Include" -I "D:\Program Files\ARM\Inc\ST\STM32F10x" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\OBJ\timer.o" --omf_browse "..\OBJ\timer.crf" --depend "..\OBJ\timer.d")
+I (..\SYSTEM\sys\sys.h)(0x53D1EC7C)
+I (..\USER\stm32f10x.h)(0x53D1EC7C)
+I (..\CORE\core_cm3.h)(0x53D1EC7C)
+I (D:\Program Files\ARM\ARMCC\bin\..\include\stdint.h)(0x553B5E8F)
+I (..\USER\system_stm32f10x.h)(0x53D1EC7C)
+I (..\USER\stm32f10x_conf.h)(0x553E26C8)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x55509103)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x553B5DF7)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x53D1EC7C)
+I (..\HARDWARE\TIMER\timer.h)(0x55472FAE)
+I (..\HARDWARE\KEY\key.h)(0x53D1EC7C)
+I (..\HARDWARE\LED\led.h)(0x53D1EC7C)
+I (..\HARDWARE\ADC\adc.h)(0x53D1EC7C)
+I (..\HARDWARE\WORD\word.h)(0x5538B50F)
+I (..\SYSTEM\usart\usart.h)(0x53D1EC7C)
+I (D:\Program Files\ARM\ARMCC\bin\..\include\stdio.h)(0x50F96150)
+I (..\HARDWARE\FLASH\flash.h)(0x5552E968)
+F (..\HARDWARE\SPI\spi.c)(0x55867D64)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RTC -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\WORD -I..\HARDWARE\TIMER -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\EXTI -I "D:\Program Files\ARM\RV31\INC" -I "D:\Program Files\ARM\CMSIS\Include" -I "D:\Program Files\ARM\Inc\ST\STM32F10x" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\OBJ\spi.o" --omf_browse "..\OBJ\spi.crf" --depend "..\OBJ\spi.d")
+I (..\HARDWARE\SPI\spi.h)(0x5539AA59)
+I (..\SYSTEM\sys\sys.h)(0x53D1EC7C)
+I (..\USER\stm32f10x.h)(0x53D1EC7C)
+I (..\CORE\core_cm3.h)(0x53D1EC7C)
+I (D:\Program Files\ARM\ARMCC\bin\..\include\stdint.h)(0x553B5E8F)
+I (..\USER\system_stm32f10x.h)(0x53D1EC7C)
+I (..\USER\stm32f10x_conf.h)(0x553E26C8)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x55509103)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x553B5DF7)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x53D1EC7C)
+F (..\HARDWARE\FLASH\flash.c)(0x55867D66)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RTC -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\WORD -I..\HARDWARE\TIMER -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\EXTI -I "D:\Program Files\ARM\RV31\INC" -I "D:\Program Files\ARM\CMSIS\Include" -I "D:\Program Files\ARM\Inc\ST\STM32F10x" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\OBJ\flash.o" --omf_browse "..\OBJ\flash.crf" --depend "..\OBJ\flash.d")
+I (..\HARDWARE\FLASH\flash.h)(0x5552E968)
+I (..\SYSTEM\sys\sys.h)(0x53D1EC7C)
+I (..\USER\stm32f10x.h)(0x53D1EC7C)
+I (..\CORE\core_cm3.h)(0x53D1EC7C)
+I (D:\Program Files\ARM\ARMCC\bin\..\include\stdint.h)(0x553B5E8F)
+I (..\USER\system_stm32f10x.h)(0x53D1EC7C)
+I (..\USER\stm32f10x_conf.h)(0x553E26C8)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x55509103)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x553B5DF7)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x53D1EC7C)
+I (..\HARDWARE\SPI\spi.h)(0x5539AA59)
+I (..\SYSTEM\delay\delay.h)(0x53D1EC7C)
+F (..\HARDWARE\EXTI\exti.c)(0x55867D67)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RTC -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\WORD -I..\HARDWARE\TIMER -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\EXTI -I "D:\Program Files\ARM\RV31\INC" -I "D:\Program Files\ARM\CMSIS\Include" -I "D:\Program Files\ARM\Inc\ST\STM32F10x" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\OBJ\exti.o" --omf_browse "..\OBJ\exti.crf" --depend "..\OBJ\exti.d")
+I (..\HARDWARE\EXTI\exti.h)(0x553E266C)
+I (..\SYSTEM\sys\sys.h)(0x53D1EC7C)
+I (..\USER\stm32f10x.h)(0x53D1EC7C)
+I (..\CORE\core_cm3.h)(0x53D1EC7C)
+I (D:\Program Files\ARM\ARMCC\bin\..\include\stdint.h)(0x553B5E8F)
+I (..\USER\system_stm32f10x.h)(0x53D1EC7C)
+I (..\USER\stm32f10x_conf.h)(0x553E26C8)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x55509103)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x553B5DF7)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x53D1EC7C)
+I (..\HARDWARE\LED\led.h)(0x53D1EC7C)
+I (..\HARDWARE\LCD\lcd.h)(0x53D1EC7C)
+I (D:\Program Files\ARM\ARMCC\bin\..\include\stdlib.h)(0x50F96150)
+I (..\HARDWARE\KEY\key.h)(0x53D1EC7C)
+I (..\SYSTEM\delay\delay.h)(0x53D1EC7C)
+I (..\SYSTEM\usart\usart.h)(0x53D1EC7C)
+I (D:\Program Files\ARM\ARMCC\bin\..\include\stdio.h)(0x50F96150)
+F (..\SYSTEM\delay\delay.c)(0x55867D5A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RTC -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\WORD -I..\HARDWARE\TIMER -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\EXTI -I "D:\Program Files\ARM\RV31\INC" -I "D:\Program Files\ARM\CMSIS\Include" -I "D:\Program Files\ARM\Inc\ST\STM32F10x" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\OBJ\delay.o" --omf_browse "..\OBJ\delay.crf" --depend "..\OBJ\delay.d")
+I (..\SYSTEM\delay\delay.h)(0x53D1EC7C)
+I (..\SYSTEM\sys\sys.h)(0x53D1EC7C)
+I (..\USER\stm32f10x.h)(0x53D1EC7C)
+I (..\CORE\core_cm3.h)(0x53D1EC7C)
+I (D:\Program Files\ARM\ARMCC\bin\..\include\stdint.h)(0x553B5E8F)
+I (..\USER\system_stm32f10x.h)(0x53D1EC7C)
+I (..\USER\stm32f10x_conf.h)(0x553E26C8)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x55509103)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x553B5DF7)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x53D1EC7C)
+F (..\SYSTEM\sys\sys.c)(0x55867D5A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RTC -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\WORD -I..\HARDWARE\TIMER -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\EXTI -I "D:\Program Files\ARM\RV31\INC" -I "D:\Program Files\ARM\CMSIS\Include" -I "D:\Program Files\ARM\Inc\ST\STM32F10x" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\OBJ\sys.o" --omf_browse "..\OBJ\sys.crf" --depend "..\OBJ\sys.d")
+I (..\SYSTEM\sys\sys.h)(0x53D1EC7C)
+I (..\USER\stm32f10x.h)(0x53D1EC7C)
+I (..\CORE\core_cm3.h)(0x53D1EC7C)
+I (D:\Program Files\ARM\ARMCC\bin\..\include\stdint.h)(0x553B5E8F)
+I (..\USER\system_stm32f10x.h)(0x53D1EC7C)
+I (..\USER\stm32f10x_conf.h)(0x553E26C8)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x55509103)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x553B5DF7)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x53D1EC7C)
+F (..\SYSTEM\usart\usart.c)(0x55867D59)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RTC -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\WORD -I..\HARDWARE\TIMER -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\EXTI -I "D:\Program Files\ARM\RV31\INC" -I "D:\Program Files\ARM\CMSIS\Include" -I "D:\Program Files\ARM\Inc\ST\STM32F10x" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\OBJ\usart.o" --omf_browse "..\OBJ\usart.crf" --depend "..\OBJ\usart.d")
+I (..\SYSTEM\sys\sys.h)(0x53D1EC7C)
+I (..\USER\stm32f10x.h)(0x53D1EC7C)
+I (..\CORE\core_cm3.h)(0x53D1EC7C)
+I (D:\Program Files\ARM\ARMCC\bin\..\include\stdint.h)(0x553B5E8F)
+I (..\USER\system_stm32f10x.h)(0x53D1EC7C)
+I (..\USER\stm32f10x_conf.h)(0x553E26C8)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x55509103)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x553B5DF7)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x53D1EC7C)
+I (..\SYSTEM\usart\usart.h)(0x53D1EC7C)
+I (D:\Program Files\ARM\ARMCC\bin\..\include\stdio.h)(0x50F96150)
+F (..\CORE\core_cm3.c)(0x55867D58)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RTC -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\WORD -I..\HARDWARE\TIMER -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\EXTI -I "D:\Program Files\ARM\RV31\INC" -I "D:\Program Files\ARM\CMSIS\Include" -I "D:\Program Files\ARM\Inc\ST\STM32F10x" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\OBJ\core_cm3.o" --omf_browse "..\OBJ\core_cm3.crf" --depend "..\OBJ\core_cm3.d")
+I (D:\Program Files\ARM\ARMCC\bin\..\include\stdint.h)(0x553B5E8F)
+F (..\CORE\startup_stm32f10x_hd.s)(0x55867D58)(--cpu Cortex-M3 -g --apcs=interwork -I "D:\Program Files\ARM\RV31\INC" -I "D:\Program Files\ARM\CMSIS\Include" -I "D:\Program Files\ARM\Inc\ST\STM32F10x" --list ".\startup_stm32f10x_hd.lst" --xref -o "..\OBJ\startup_stm32f10x_hd.o" --depend "..\OBJ\startup_stm32f10x_hd.d")
+F (..\STM32F10x_FWLib\src\misc.c)(0x55867D5E)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RTC -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\WORD -I..\HARDWARE\TIMER -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\EXTI -I "D:\Program Files\ARM\RV31\INC" -I "D:\Program Files\ARM\CMSIS\Include" -I "D:\Program Files\ARM\Inc\ST\STM32F10x" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\OBJ\misc.o" --omf_browse "..\OBJ\misc.crf" --depend "..\OBJ\misc.d")
+I (..\STM32F10x_FWLib\inc\misc.h)(0x53D1EC7C)
+I (..\USER\stm32f10x.h)(0x53D1EC7C)
+I (..\CORE\core_cm3.h)(0x53D1EC7C)
+I (D:\Program Files\ARM\ARMCC\bin\..\include\stdint.h)(0x553B5E8F)
+I (..\USER\system_stm32f10x.h)(0x53D1EC7C)
+I (..\USER\stm32f10x_conf.h)(0x553E26C8)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x55509103)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x553B5DF7)
+F (..\STM32F10x_FWLib\src\stm32f10x_adc.c)(0x55867D5E)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RTC -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\WORD -I..\HARDWARE\TIMER -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\EXTI -I "D:\Program Files\ARM\RV31\INC" -I "D:\Program Files\ARM\CMSIS\Include" -I "D:\Program Files\ARM\Inc\ST\STM32F10x" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\OBJ\stm32f10x_adc.o" --omf_browse "..\OBJ\stm32f10x_adc.crf" --depend "..\OBJ\stm32f10x_adc.d")
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x53D1EC7C)
+I (..\USER\stm32f10x.h)(0x53D1EC7C)
+I (..\CORE\core_cm3.h)(0x53D1EC7C)
+I (D:\Program Files\ARM\ARMCC\bin\..\include\stdint.h)(0x553B5E8F)
+I (..\USER\system_stm32f10x.h)(0x53D1EC7C)
+I (..\USER\stm32f10x_conf.h)(0x553E26C8)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x55509103)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x553B5DF7)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x53D1EC7C)
+F (..\STM32F10x_FWLib\src\stm32f10x_fsmc.c)(0x55867D5C)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RTC -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\WORD -I..\HARDWARE\TIMER -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\EXTI -I "D:\Program Files\ARM\RV31\INC" -I "D:\Program Files\ARM\CMSIS\Include" -I "D:\Program Files\ARM\Inc\ST\STM32F10x" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\OBJ\stm32f10x_fsmc.o" --omf_browse "..\OBJ\stm32f10x_fsmc.crf" --depend "..\OBJ\stm32f10x_fsmc.d")
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x53D1EC7C)
+I (..\USER\stm32f10x.h)(0x53D1EC7C)
+I (..\CORE\core_cm3.h)(0x53D1EC7C)
+I (D:\Program Files\ARM\ARMCC\bin\..\include\stdint.h)(0x553B5E8F)
+I (..\USER\system_stm32f10x.h)(0x53D1EC7C)
+I (..\USER\stm32f10x_conf.h)(0x553E26C8)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x55509103)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x553B5DF7)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x53D1EC7C)
+F (..\STM32F10x_FWLib\src\stm32f10x_gpio.c)(0x55867D5C)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RTC -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\WORD -I..\HARDWARE\TIMER -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\EXTI -I "D:\Program Files\ARM\RV31\INC" -I "D:\Program Files\ARM\CMSIS\Include" -I "D:\Program Files\ARM\Inc\ST\STM32F10x" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\OBJ\stm32f10x_gpio.o" --omf_browse "..\OBJ\stm32f10x_gpio.crf" --depend "..\OBJ\stm32f10x_gpio.d")
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x53D1EC7C)
+I (..\USER\stm32f10x.h)(0x53D1EC7C)
+I (..\CORE\core_cm3.h)(0x53D1EC7C)
+I (D:\Program Files\ARM\ARMCC\bin\..\include\stdint.h)(0x553B5E8F)
+I (..\USER\system_stm32f10x.h)(0x53D1EC7C)
+I (..\USER\stm32f10x_conf.h)(0x553E26C8)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x55509103)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x553B5DF7)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x53D1EC7C)
+F (..\STM32F10x_FWLib\src\stm32f10x_rcc.c)(0x55867D5B)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RTC -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\WORD -I..\HARDWARE\TIMER -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\EXTI -I "D:\Program Files\ARM\RV31\INC" -I "D:\Program Files\ARM\CMSIS\Include" -I "D:\Program Files\ARM\Inc\ST\STM32F10x" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\OBJ\stm32f10x_rcc.o" --omf_browse "..\OBJ\stm32f10x_rcc.crf" --depend "..\OBJ\stm32f10x_rcc.d")
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x55509103)
+I (..\USER\stm32f10x.h)(0x53D1EC7C)
+I (..\CORE\core_cm3.h)(0x53D1EC7C)
+I (D:\Program Files\ARM\ARMCC\bin\..\include\stdint.h)(0x553B5E8F)
+I (..\USER\system_stm32f10x.h)(0x53D1EC7C)
+I (..\USER\stm32f10x_conf.h)(0x553E26C8)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x553B5DF7)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x53D1EC7C)
+F (..\STM32F10x_FWLib\src\stm32f10x_usart.c)(0x55867D5A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RTC -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\WORD -I..\HARDWARE\TIMER -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\EXTI -I "D:\Program Files\ARM\RV31\INC" -I "D:\Program Files\ARM\CMSIS\Include" -I "D:\Program Files\ARM\Inc\ST\STM32F10x" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\OBJ\stm32f10x_usart.o" --omf_browse "..\OBJ\stm32f10x_usart.crf" --depend "..\OBJ\stm32f10x_usart.d")
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x553B5DF7)
+I (..\USER\stm32f10x.h)(0x53D1EC7C)
+I (..\CORE\core_cm3.h)(0x53D1EC7C)
+I (D:\Program Files\ARM\ARMCC\bin\..\include\stdint.h)(0x553B5E8F)
+I (..\USER\system_stm32f10x.h)(0x53D1EC7C)
+I (..\USER\stm32f10x_conf.h)(0x553E26C8)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x55509103)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x53D1EC7C)
+F (..\STM32F10x_FWLib\src\stm32f10x_tim.c)(0x55867D5B)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RTC -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\WORD -I..\HARDWARE\TIMER -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\EXTI -I "D:\Program Files\ARM\RV31\INC" -I "D:\Program Files\ARM\CMSIS\Include" -I "D:\Program Files\ARM\Inc\ST\STM32F10x" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\OBJ\stm32f10x_tim.o" --omf_browse "..\OBJ\stm32f10x_tim.crf" --depend "..\OBJ\stm32f10x_tim.d")
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x53D1EC7C)
+I (..\USER\stm32f10x.h)(0x53D1EC7C)
+I (..\CORE\core_cm3.h)(0x53D1EC7C)
+I (D:\Program Files\ARM\ARMCC\bin\..\include\stdint.h)(0x553B5E8F)
+I (..\USER\system_stm32f10x.h)(0x53D1EC7C)
+I (..\USER\stm32f10x_conf.h)(0x553E26C8)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x55509103)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x553B5DF7)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x53D1EC7C)
+F (..\STM32F10x_FWLib\src\stm32f10x_spi.c)(0x55867D5B)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RTC -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\WORD -I..\HARDWARE\TIMER -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\EXTI -I "D:\Program Files\ARM\RV31\INC" -I "D:\Program Files\ARM\CMSIS\Include" -I "D:\Program Files\ARM\Inc\ST\STM32F10x" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\OBJ\stm32f10x_spi.o" --omf_browse "..\OBJ\stm32f10x_spi.crf" --depend "..\OBJ\stm32f10x_spi.d")
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x53D1EC7C)
+I (..\USER\stm32f10x.h)(0x53D1EC7C)
+I (..\CORE\core_cm3.h)(0x53D1EC7C)
+I (D:\Program Files\ARM\ARMCC\bin\..\include\stdint.h)(0x553B5E8F)
+I (..\USER\system_stm32f10x.h)(0x53D1EC7C)
+I (..\USER\stm32f10x_conf.h)(0x553E26C8)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x55509103)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x553B5DF7)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x53D1EC7C)
+F (..\STM32F10x_FWLib\src\stm32f10x_flash.c)(0x55867D5C)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RTC -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\WORD -I..\HARDWARE\TIMER -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\EXTI -I "D:\Program Files\ARM\RV31\INC" -I "D:\Program Files\ARM\CMSIS\Include" -I "D:\Program Files\ARM\Inc\ST\STM32F10x" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\OBJ\stm32f10x_flash.o" --omf_browse "..\OBJ\stm32f10x_flash.crf" --depend "..\OBJ\stm32f10x_flash.d")
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x53D1EC7C)
+I (..\USER\stm32f10x.h)(0x53D1EC7C)
+I (..\CORE\core_cm3.h)(0x53D1EC7C)
+I (D:\Program Files\ARM\ARMCC\bin\..\include\stdint.h)(0x553B5E8F)
+I (..\USER\system_stm32f10x.h)(0x53D1EC7C)
+I (..\USER\stm32f10x_conf.h)(0x553E26C8)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x55509103)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x553B5DF7)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x53D1EC7C)
+F (..\STM32F10x_FWLib\src\stm32f10x_exti.c)(0x55867D5D)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RTC -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\WORD -I..\HARDWARE\TIMER -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\EXTI -I "D:\Program Files\ARM\RV31\INC" -I "D:\Program Files\ARM\CMSIS\Include" -I "D:\Program Files\ARM\Inc\ST\STM32F10x" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\OBJ\stm32f10x_exti.o" --omf_browse "..\OBJ\stm32f10x_exti.crf" --depend "..\OBJ\stm32f10x_exti.d")
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x53D1EC7C)
+I (..\USER\stm32f10x.h)(0x53D1EC7C)
+I (..\CORE\core_cm3.h)(0x53D1EC7C)
+I (D:\Program Files\ARM\ARMCC\bin\..\include\stdint.h)(0x553B5E8F)
+I (..\USER\system_stm32f10x.h)(0x53D1EC7C)
+I (..\USER\stm32f10x_conf.h)(0x553E26C8)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x55509103)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x53D1EC7C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x553B5DF7)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x53D1EC7C)
